@@ -1,0 +1,10 @@
+from cx_Freeze import setup, Executable
+
+script = 'shopping.py'
+
+setup(
+    name='MyApp',
+    version='1.0',
+    description='My Application',
+    executables=[Executable(script)]
+)
